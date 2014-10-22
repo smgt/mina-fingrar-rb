@@ -1,6 +1,6 @@
 require "minitest/autorun"
 
-class TestMinaFingrar < Minitest::Test
+class TestMinaFingrar < MiniTest::Unit::TestCase
   def setup
     @mina_fingrar = MinaFingrar.new
   end
@@ -17,7 +17,7 @@ class TestMinaFingrar < Minitest::Test
   end
 
   def test_nu_är_de_den_biggest
-    assert_equal 4, @mina_fingrar.nu_är_de_den_biggest
+    assert_equal Float::INFINITY, @mina_fingrar.nu_är_de_den_biggest
   end
 
   def test_grävmaskiner_och_hjullastare

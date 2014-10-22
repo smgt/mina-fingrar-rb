@@ -1,10 +1,10 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'minafingrar/version'
+require 'mina_fingrar/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "minafingrar-rb"
+  spec.name          = "mina_fingrar"
   spec.version       = Minafingrar::VERSION
   spec.authors       = ["Simon Gate"]
   spec.email         = ["simon@smgt.me"]
@@ -22,4 +22,6 @@ Gem::Specification.new do |spec|
   spec.add_dependency "therubyracer"
   spec.add_development_dependency "bundler", "~> 1.7"
   spec.add_development_dependency "rake", "~> 10.0"
+  spec.add_development_dependency "pry"
+  spec.add_development_dependency "minitest"
 end
