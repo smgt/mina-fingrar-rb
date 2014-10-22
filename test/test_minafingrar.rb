@@ -47,7 +47,7 @@ class TestMinaFingrar < MiniTest::Unit::TestCase
   end
 
   def test_oj_han_bara_sticker
-    assert_output "/usr/bin/open http://localhost\n" do
+    assert_output %r%http://localhost\n% do
       @mina_fingrar.oj_han_bara_sticker("http://localhost", dry_run: true)
     end
   end
