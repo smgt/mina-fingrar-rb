@@ -1,6 +1,7 @@
 # Mina Fingrar
 
 [![Build Status](https://travis-ci.org/smgt/mina-fingrar-rb.svg)](https://travis-ci.org/smgt/mina-fingrar-rb)
+[![Test Coverage](https://codeclimate.com/github/smgt/mina-fingrar-rb/badges/coverage.svg)](https://codeclimate.com/github/smgt/mina-fingrar-rb)
 
 ## Contributing
 
