@@ -1,26 +1,6 @@
-# Minafingrar::Rb
+# Mina Fingrar
 
-TODO: Write a gem description
-
-## Installation
-
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'minafingrar-rb'
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install minafingrar-rb
-
-## Usage
-
-TODO: Write usage instructions here
+[![Build Status](https://travis-ci.org/smgt/mina-fingrar-rb.svg)](https://travis-ci.org/smgt/mina-fingrar-rb)
 
 ## Contributing
 
