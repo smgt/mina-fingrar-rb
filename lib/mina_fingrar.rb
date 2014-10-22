@@ -1,5 +1,6 @@
-require "minafingrar/version"
+require "mina_fingrar/version"
 require "execjs"
+require "launchy"
 
 class MinaFingrar
   def initialize
@@ -54,7 +55,7 @@ class MinaFingrar
     @js.call("JaheÅttaKiloMinst")
   end
 
-  def oj_han_bara_sticker(url)
-    @js.call("ojHanBaraSticker",url)
+  def oj_han_bara_sticker(url, opts)
+    Launchy.open(url, opts)
   end
 end
